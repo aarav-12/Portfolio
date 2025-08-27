@@ -24,9 +24,12 @@ dist-ssr
 *.sw?
 
 # env
+.env
+
 .envnode_modules/
 dist/
 *.zip
 node_modules/
 dist/
 *.zip
+
