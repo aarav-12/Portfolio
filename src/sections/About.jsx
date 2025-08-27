@@ -38,7 +38,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                Currently building projects with the MERN stack, passionate about creating scalable and efficient solutions.
+                MERN stack developer skilled in JavaScript, TypeScript, Python, and C++. Proficient in React, Next.js, Node.js, and Tailwind, with experience in APIs, CI/CD, and cloud deployment. Research background in AI/NLP and prompt engineering, with strong problem-solving and leadership skills.
               </p>
             </div>
           </div>
