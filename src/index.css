@@ -149,6 +149,27 @@ body {
   .social-icon {
     @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
   }
+
+  /* New: Loading and error handling utilities */
+  .loading-spinner {
+    @apply animate-spin rounded-full h-8 w-8 border-b-2 border-white mx-auto;
+  }
+
+  .error-overlay {
+    @apply fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 text-white text-center p-5;
+  }
+
+  .error-message {
+    @apply text-xl font-semibold mb-4;
+  }
+
+  .fallback-text {
+    @apply text-gray-400 text-base;
+  }
+
+  .hidden-on-error {
+    @apply hidden;
+  }
 }
 
 .waving-hand {
