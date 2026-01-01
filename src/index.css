@@ -170,6 +170,19 @@ body {
   .hidden-on-error {
     @apply hidden;
   }
+
+  /* New: WebGL context lost utility */
+  .context-lost {
+    @apply fixed inset-0 bg-black flex items-center justify-center z-50 text-white text-center p-5;
+  }
+
+  .context-lost-message {
+    @apply text-2xl font-semibold mb-4;
+  }
+
+  .context-lost-subtext {
+    @apply text-gray-400 text-lg;
+  }
 }
 
 .waving-hand {
