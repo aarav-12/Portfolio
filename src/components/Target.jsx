@@ -5,24 +5,30 @@ import gsap from 'gsap';
 
 const Target = (props) => {
   const targetRef = useRef();
-  const { scene } = useGLTF(
-    'https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf',
-  );
+
+  // load from your own app, not the internet
+  const { scene } = useGLTF('/models/target-stand.glb');
 
   useGSAP(() => {
+    if (!targetRef.current) return;
+
     gsap.to(targetRef.current.position, {
       y: targetRef.current.position.y + 0.5,
       duration: 1.5,
       repeat: -1,
       yoyo: true,
+      ease: 'power1.inOut',
     });
-  });
+  }, []);
 
   return (
-    <mesh {...props} ref={targetRef} rotation={[0, Math.PI / 5, 0]} scale={1.5}>
+    <group ref={targetRef} {...props} rotation={[0, Math.PI / 5, 0]} scale={1.5}>
       <primitive object={scene} />
-    </mesh>
+    </group>
   );
 };
 
 export default Target;
+
+// optional but recommended
+useGLTF.preload('/models/target-stand.glb');
