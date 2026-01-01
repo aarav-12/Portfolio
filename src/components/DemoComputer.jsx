@@ -1012,6 +1012,6 @@ const DemoComputer = (props) => {
   );
 };
 
-useGLTF.preload('/models/computer.glb');
+useGLTF.preload('/models/target-stand/computer.glb');
 
 export default DemoComputer;
