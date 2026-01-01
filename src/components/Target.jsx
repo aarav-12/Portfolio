@@ -7,7 +7,8 @@ const Target = (props) => {
   const targetRef = useRef();
 
   // load from your own app, not the internet
-  const { scene } = useGLTF('/models/target-stand.glb');
+  const { scene } = useGLTF('/models/target-stand/react.glb');
+
 
   useGSAP(() => {
     if (!targetRef.current) return;
@@ -31,4 +32,4 @@ const Target = (props) => {
 export default Target;
 
 // optional but recommended
-useGLTF.preload('/models/target-stand.glb');
+useGLTF.preload('/models/target-stand/react.glb');
