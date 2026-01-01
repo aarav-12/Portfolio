@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload } from '@react-three/drei';
@@ -17,7 +17,8 @@ const Hero = () => {
         scene,
         renderer,
         modelUrl,
-        (gltf) => {
+        // eslint-disable-next-line no-unused-vars
+        (_gltf) => {
           console.log('Model loaded successfully');
         },
         (error) => {
