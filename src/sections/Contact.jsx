@@ -30,16 +30,16 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_b396esv",
+        "template_mlugpwl",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Aarav",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "aarav.mi33@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "dC__qH1JwJ7O7NX4e"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -65,7 +65,7 @@ const Contact = () => {
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
             Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            platform, or bring a unique project to life, Let's connect
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
