@@ -1,116 +1,135 @@
-# 🚀 3D Developer Portfolio
+👋 Hi, I’m Aarav
+(Yes, this is my portfolio. No, it’s not another TODO app.)
+Welcome to my little corner of the internet where code ships, side-projects escape into the wild, and “just one more feature” is a lifestyle choice.
+I’m a full-stack software engineer who likes building things that actually do stuff, preferably at scale, preferably with AI somewhere in the loop, and preferably without breaking production (too often).
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
+🚀 What I’m About
 
-![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
 
----
+🧠 I build AI-powered, product-first systems
 
-## 📚 Table of Contents
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
+🛠️ I enjoy owning problems end-to-end: frontend → backend → deployment → “why is this alert firing at 3am”
 
----
 
-## ✨ Features
+📈 I care about real users, not demo only code
 
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
 
----
+🎭 Occasionally I do drama. On stage. With humans. Long story.
 
-## 🛠 Tech Stack
 
-| Tech              | Description                           |
-|-------------------|---------------------------------------|
-| React             | Front-end JavaScript library          |
-| Vite              | Fast bundler and dev environment      |
-| TailwindCSS       | Utility-first CSS framework           |
-| React Three Fiber | 3D rendering with Three.js in React   |
-| Drei              | Helpers and abstractions for R3F      |
-| Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
 
----
+🧩 Things I’ve Built (The Non-Boring Version)
+📊 Signalist
+An AI-powered stock analytics platform that tracks 5,000+ stocks, sends alerts, generates daily market digests, and pretends to be calm during earnings season.
 
-## 📁 Project Structure
+Real-time data, event-driven workflows, auth, charts, emails, the whole startup starter pack.
 
-```bash
-├── public/
-│   ├── assets/             # Images, textures, models
-│   ├── models/             # 3D Astronaut model
-│   └── vite.svg
-├── src/
-│   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
-│   └── main.jsx            # Entry point
-├── tailwind.config.js
-└── vite.config.js
-```
 
----
+🧘 YouTube Focus Mode (Chrome Extension)
+Because productivity dies the moment Shorts autoplay.
 
-## 🚀 Getting Started
-1. Clone the Repository
-```bash
-git clone https://github.com/Ali-Sanati/Portfolio.git
-cd Portfolio
-```
-2. Install Dependencies
-```bash
-npm install
-```
-3. Run the Development Server
-```bash
-npm run dev
-```
-The app will be available at http://localhost:5173.
 
----
+Blocks distractions
 
-## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
 
----
+Has strictness levels (yes, strict)
 
-## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ali.sanatidev/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-sanati/) 
 
----
+Runs fully client-side : no creepy tracking
 
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
-👉 What should I build next?
 
-- A beautiful Landing Page
+50+ daily users. Thousands of saved brain cells.
 
-- A complete E-commerce site
+🌐 Pagemint
+An AI website generator that turns prompts into actual, usable websites.
 
-- A fun App Clone (YouTube, Netflix, etc.)
 
-Or another interactive Portfolio
+Semantic layouts
 
-Let me know!
 
----
+Notion-style editor
 
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
+
+Drag, drop, deploy
+
+
+Basically: “vibes → website” pipeline.
+
+🧠 How I Think (This Matters More Than My Tech Stack)
+
+
+I don’t just write code ,  I design systems
+
+
+I optimize for clarity, scalability, and future-me
+
+
+I believe architecture decisions matter more than frameworks
+
+
+I like trade-offs. I hate magic.
+
+
+
+🛠️ Tech I’m Fluent In
+Languages: JavaScript, TypeScript, Python, C++, SQL
+Frontend: React, Next.js, Tailwind, shadcn/ui
+Backend: Node.js, Express, FastAPI, REST, OAuth
+Infra & Tools: Git, Vercel, CI/CD, Postman, Inngest
+Bonus: Prompt engineering that actually works
+(Yes, I Google things. No, that’s not a weakness.)
+
+🧪 Background XP
+
+
+Research intern working on AI/NLP & computational poetics
+
+
+Processed 10k+ samples, built models, chased accuracy, questioned reality
+
+
+Learned how to blend theory with shipping
+
+
+
+🏁 Why This Portfolio Exists
+
+
+To show how I think, not just what I know
+
+
+To prove I can ship real products, not just pass interviews
+
+
+To signal that I care about engineering + product + impact
+
+
+If you’re looking for:
+
+
+Someone who can build fast without breaking fundamentals
+
+
+Someone who understands users and systems
+
+
+Someone who treats side-projects like startups
+
+
+We should probably talk.
+
+📬 Let’s Connect
+
+
+GitHub: where commits live
+
+
+LinkedIn: where I pretend to be professional
+
+
+Email: fastest response, least fluff
+
+
+Thanks for scrolling.
+Now go click around and break something , if you can 😄
