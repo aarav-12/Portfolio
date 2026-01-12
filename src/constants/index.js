@@ -87,7 +87,7 @@ export const myProjects = [
     subDescription: [
       "Built a full-stack web app that generates website layouts from text prompts and lets users edit them in a Notion-style interface. Added drag-and-drop blocks, real-time previews, and easy exports so users can shape and ship a site quickly without worrying about setup or deployment.",
     ],
-    href: "",
+
     logo: "",
     image: "/assets/projects/website.jpg",
     tags: [
